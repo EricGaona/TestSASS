@@ -21,7 +21,7 @@ header button::after {
   border: 1px solid black;
 }
 
-section {
+section, div.test2 {
   width: 800px;
   height: 300px;
   border: 2px solid black;
@@ -45,5 +45,9 @@ div.test1 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: blue;
+}
+
+div.test2 {
+  background-color: aqua;
 }
 /*# sourceMappingURL=styles.css.map */

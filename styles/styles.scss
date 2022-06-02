@@ -30,3 +30,8 @@ div.test1{
 @include eric(space-around, blue);
 }
 
+// extend _ 7
+div.test2{
+    @extend section;
+    background-color: aqua;
+    }
