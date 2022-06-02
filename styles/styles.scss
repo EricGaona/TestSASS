@@ -1,7 +1,12 @@
 $primaryBtm: aqua;
-
+// variables
 header{
     background-color: $primaryBtm;
     display: flex;
     justify-content: center;
+    // nesting selectors
+    button{
+        color: red;
+    }
 }
+
