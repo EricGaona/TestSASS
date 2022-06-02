@@ -1,4 +1,6 @@
-$primaryBtm: aqua;
+@import './variables';
+// importing variables _ 5
+
 // variables _ 1
 header{
     background-color: $primaryBtm;
@@ -20,4 +22,4 @@ header{
 
 // separando el codigo en multiples partes _ 4
 
-@import './section'
+@import './section';
