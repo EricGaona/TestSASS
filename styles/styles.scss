@@ -7,7 +7,7 @@ header{
     // nesting selectors _ 2
     button{
         color: red;
-        //  Adding hover and after
+        //  Adding hover and after _ 3
         &:hover{
             background-color: blue;
         }
@@ -18,3 +18,6 @@ header{
     }
 }
 
+// separando el codigo en multiples partes _ 4
+
+@import './section'

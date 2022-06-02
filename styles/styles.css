@@ -20,4 +20,11 @@ header button::after {
   content: "Chiaooo";
   border: 1px solid black;
 }
+
+section {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+  border: 2px solid black;
+}
 /*# sourceMappingURL=styles.css.map */
