@@ -11,4 +11,13 @@ header {
 header button {
   color: red;
 }
+
+header button:hover {
+  background-color: blue;
+}
+
+header button::after {
+  content: "Chiaooo";
+  border: 1px solid black;
+}
 /*# sourceMappingURL=styles.css.map */

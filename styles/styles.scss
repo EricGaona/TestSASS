@@ -1,12 +1,20 @@
 $primaryBtm: aqua;
-// variables
+// variables _ 1
 header{
     background-color: $primaryBtm;
     display: flex;
     justify-content: center;
-    // nesting selectors
+    // nesting selectors _ 2
     button{
         color: red;
+        //  Adding hover and after
+        &:hover{
+            background-color: blue;
+        }
+        &::after{
+            content: "Chiaooo";
+            border: 1px solid black;
+        }
     }
 }
 
