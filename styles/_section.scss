@@ -1,6 +1,16 @@
+@mixin eric($direction, $background){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $direction;
+    background-color: $background;
+}
+
 section{
-    width: 400px;
+    width: 800px;
     height: 300px;
-    background-color: red;
+  //  background-color: red;
     border: 2px solid black;
+    
+    @include eric(center, orange);
+    
 }

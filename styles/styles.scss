@@ -23,3 +23,10 @@ header{
 // separando el codigo en multiples partes _ 4
 
 @import './section';
+
+// mixin include _ 6
+
+div.test1{
+@include eric(space-around, blue);
+}
+
